@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Branding source files (keep local, too large for git)
+Color palette/
+font/
+Logo/*.ai
+Logo/*.pdf
+
+# Raw product images (optimized versions go in assets/)
+Product Images/
+Product images 1/
+
+# Loose WhatsApp images in root
+WhatsApp Image*
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Node modules (if any build tools added later)
+node_modules/
