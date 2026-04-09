@@ -1,24 +1,31 @@
 const testimonials = [
   {
     quote:
-      "The toran I ordered is absolutely stunning. You can see the love and care in every knot. My entrance looks so warm and welcoming now.",
-    name: "Priya S.",
-    location: "Mumbai",
-    product: "Elephant Toran",
+      "Absolutely loved the products! The tea light holders look beautiful and elegant, and the red toran adds a perfect festive touch to our entrance. Great quality and stunning design - highly recommended!",
+    name: "Sneha R.",
+    location: "Australia",
+    product: "Tea Light Holders & Toran",
   },
   {
     quote:
-      "I gifted the macrame flower bouquet to my friend for her birthday and she was blown away. Such a unique and meaningful gift!",
-    name: "Ananya R.",
+      "My mother opened the package and she loved them! They blend so well with our home and really liven up the space. The ordering process was smooth and the quality is really good. I'd recommend Macrame Matrix to all my friends.",
+    name: "Pooja M.",
+    location: "Tirupur",
+    product: "Macrame Toran",
+  },
+  {
+    quote:
+      "The handmade diya holder is truly meaningful and inspiring. The beautiful red base adds so much charm and warmth to the whole setup. Such a thoughtful and creative piece - I'll definitely be ordering again!",
+    name: "Ritika S.",
     location: "Pune",
-    product: "Flower Bouquet",
+    product: "Diya Holder",
   },
   {
     quote:
-      "The earrings are lightweight, beautifully made, and I get compliments every time I wear them. Already ordered two more pairs!",
-    name: "Deepa M.",
-    location: "Bangalore",
-    product: "Scallop Hoop Earrings",
+      "This is exactly what I was looking for! The Rakhis turned out lovely - perfect for my twin boys. Beautiful work, keep going and keep creating. Will definitely order again next year!",
+    name: "Anjali D.",
+    location: "Pune",
+    product: "Macrame Rakhi",
   },
 ];
 
@@ -34,7 +41,7 @@ export default function Testimonials() {
             Kind Words
           </h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {testimonials.map((t) => (
             <div
               key={t.name}

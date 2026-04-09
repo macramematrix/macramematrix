@@ -25,13 +25,13 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Image
               src="/images/brand/logo-trimmed.png"
-              alt="Macrame Matrix — Knotted with Precision"
+              alt="Macrame Matrix - Knotted with Precision"
               width={360}
               height={272}
               className="h-40 md:h-44 w-auto mb-4 brightness-0 invert opacity-90"
             />
             <p className="text-white/50 text-sm font-body leading-relaxed">
-              Handcrafted macrame products made with organic cotton and love, right here in Pune, India.
+              Handcrafted macrame products made with cotton cord and love, right here in Pune, India.
             </p>
           </div>
 

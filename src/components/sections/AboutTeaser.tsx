@@ -26,7 +26,7 @@ export default function AboutTeaser() {
               From a quiet hobby to a craft with purpose
             </h2>
             <p className="font-body text-charcoal-light text-base leading-relaxed mb-4">
-              After more than 15 years in the corporate world, Monika stepped away to take a breath. During that pause, she picked up macrame — just to try something new, something with her hands.
+              After more than 15 years in the corporate world, Monika stepped away to take a breath. During that pause, she picked up macrame - just to try something new, something with her hands.
             </p>
             <p className="font-body text-charcoal-light text-base leading-relaxed mb-8">
               What started as curiosity quickly became something deeper. Today, Monika and her team work from their studio in Pune, turning cotton cord into pieces that bring warmth and character to everyday spaces.

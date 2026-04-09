@@ -9,19 +9,19 @@ const steps = [
     number: "02",
     title: "Source",
     description:
-      "We use organic cotton cord and recycled materials, sourced responsibly. Quality materials make for lasting craft.",
+      "We use quality cotton cord sourced from trusted suppliers across India. Good materials make for lasting craft.",
   },
   {
     number: "03",
     title: "Hand Knot",
     description:
-      "This is where the magic happens. Every knot tied by hand with precision and care — no machines, no shortcuts.",
+      "This is where the magic happens. Every knot tied by hand with precision and care - no machines, no shortcuts.",
   },
   {
     number: "04",
     title: "Quality Check",
     description:
-      "Each piece is inspected for evenness, structure, and finish. We pack it with eco-friendly packaging, ready to ship.",
+      "Each piece is inspected for evenness, structure, and finish. We pack it with minimal, plastic-free packaging, ready to ship.",
   },
 ];
 
@@ -37,7 +37,7 @@ export default function ProcessSection() {
             Our Process
           </h2>
           <p className="font-body text-charcoal-light text-base max-w-lg mx-auto">
-            From concept to creation — every piece is made by hand in our Pune studio
+            From concept to creation - every piece is made by hand in our Pune studio
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

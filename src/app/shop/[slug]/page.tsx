@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return {};
 
   return {
-    title: `${product.name} — Handmade Macrame`,
+    title: `${product.name} - Handmade Macrame`,
     description: product.description,
     openGraph: {
       title: `${product.name} | Macrame Matrix`,

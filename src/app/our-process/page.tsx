@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Our Process — How Handmade Macrame Is Made",
+  title: "Our Process - How Handmade Macrame Is Made",
   description:
-    "From design to delivery — see how every Macrame Matrix piece is handknotted with organic cotton in our Pune studio. No machines, no shortcuts.",
+    "From design to delivery - see how every Macrame Matrix piece is handknotted with cotton cord in our Pune studio. No machines, no shortcuts.",
 };
 
 const processSteps = [
@@ -17,19 +17,19 @@ const processSteps = [
   {
     title: "Material Sourcing",
     description:
-      "We use organic cotton cord as our primary material — no synthetic fibers where it matters. We also incorporate recycled and upcycled materials wherever possible, giving new life to what others discard.",
+      "We use quality cotton cord as our primary material, sourced from trusted suppliers across India. No synthetic fibers where it matters - just real cotton that knots beautifully and lasts.",
     image: "/images/products/coasters.jpg",
   },
   {
     title: "Hand Knotting",
     description:
-      "This is where the real work happens. Our hands tie every single knot — with precision, intention, and care. No machines. No shortcuts. Just the ancient art of macrame, practiced with a modern eye. Knotting is meditative. It takes focus, patience, and an understanding of how fibers move and materials flow. We spend hours on each piece, sometimes days, making sure every knot is secure, even, and exactly right.",
+      "This is where the real work happens. Our hands tie every single knot - with precision, intention, and care. No machines. No shortcuts. Just the ancient art of macrame, practiced with a modern eye. Knotting is meditative. It takes focus, patience, and an understanding of how fibers move and materials flow. We spend hours on each piece, sometimes days, making sure every knot is secure, even, and exactly right.",
     image: "/images/products/toran-yellow.jpg",
   },
   {
     title: "Quality Check & Packaging",
     description:
-      "Each finished piece is carefully inspected — we check every knot, every fringe, every detail. Then we pack it with minimal, plastic-free, recyclable packaging because the earth matters as much as the art.",
+      "Each finished piece is carefully inspected - we check every knot, every fringe, every detail. Then we pack it with minimal, plastic-free packaging - simple and considered.",
     image: "/images/products/bouquet.png",
   },
 ];
@@ -47,7 +47,7 @@ export default function OurProcessPage() {
             Our Process
           </h1>
           <p className="font-body text-charcoal-light text-lg max-w-2xl mx-auto">
-            Your piece isn&apos;t just made — it&apos;s shaped by the hands and heart of Monika and her team, right here in our Pune studio. That&apos;s what &ldquo;Knotted with Precision&rdquo; means.
+            Your piece isn&apos;t just made - it&apos;s shaped by the hands and heart of Monika and her team, right here in our Pune studio. That&apos;s what &ldquo;Knotted with Precision&rdquo; means.
           </p>
         </div>
 
@@ -98,8 +98,8 @@ export default function OurProcessPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 21c-4-4-8-7.5-8-12a8 8 0 0116 0c0 4.5-4 8-8 12z" />
                 </svg>
               </div>
-              <h3 className="font-body font-semibold text-charcoal text-sm mb-1">Organic Cotton</h3>
-              <p className="font-body text-charcoal-light text-xs">Natural fibers, no synthetics</p>
+              <h3 className="font-body font-semibold text-charcoal text-sm mb-1">Cotton Cord</h3>
+              <p className="font-body text-charcoal-light text-xs">Quality cotton, no synthetics</p>
             </div>
             <div>
               <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-sage/10 flex items-center justify-center">
@@ -107,8 +107,8 @@ export default function OurProcessPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                 </svg>
               </div>
-              <h3 className="font-body font-semibold text-charcoal text-sm mb-1">Recycled Materials</h3>
-              <p className="font-body text-charcoal-light text-xs">Upcycled wherever possible</p>
+              <h3 className="font-body font-semibold text-charcoal text-sm mb-1">Handmade with Care</h3>
+              <p className="font-body text-charcoal-light text-xs">Every knot tied by hand</p>
             </div>
             <div>
               <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-sage/10 flex items-center justify-center">
@@ -116,8 +116,8 @@ export default function OurProcessPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                 </svg>
               </div>
-              <h3 className="font-body font-semibold text-charcoal text-sm mb-1">Eco Packaging</h3>
-              <p className="font-body text-charcoal-light text-xs">Plastic-free, recyclable</p>
+              <h3 className="font-body font-semibold text-charcoal text-sm mb-1">Thoughtful Packaging</h3>
+              <p className="font-body text-charcoal-light text-xs">Minimal, plastic-free</p>
             </div>
           </div>
         </div>

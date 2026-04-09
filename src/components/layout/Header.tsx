@@ -27,8 +27,8 @@ export default function Header() {
   return (
     <>
       {/* Utility bar */}
-      <div className="bg-charcoal text-white text-xs py-1.5 text-center font-body tracking-wide hidden md:block">
-        Free shipping on orders above ₹999 &nbsp;|&nbsp; Made with love in Pune, India
+      <div className="bg-gradient-to-r from-sage-dark via-sage to-sage-dark text-white text-xs md:text-sm py-2 text-center font-body font-semibold tracking-wider">
+        ✨ Free shipping on orders above ₹1999 &nbsp;|&nbsp; Made with love in Pune, India ✨
       </div>
 
       <header
@@ -47,7 +47,7 @@ export default function Header() {
                 alt="Macrame Matrix"
                 width={180}
                 height={96}
-                className="h-12 md:h-14 w-auto"
+                className="h-14 md:h-[4.5rem] w-auto"
                 priority
               />
             </Link>

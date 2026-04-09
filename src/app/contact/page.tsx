@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Macrame Matrix — Get in Touch",
+  title: "Contact Macrame Matrix - Get in Touch",
   description:
-    "Reach out to Macrame Matrix for orders, custom pieces, or questions. WhatsApp, Instagram, YouTube — we'd love to hear from you. Based in Pune, India.",
+    "Reach out to Macrame Matrix for orders, custom pieces, or questions. WhatsApp, Instagram, YouTube - we'd love to hear from you. Based in Pune, India.",
 };
 
 export default function ContactPage() {

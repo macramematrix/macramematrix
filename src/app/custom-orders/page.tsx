@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Custom Macrame Orders — Bespoke Handmade Art",
+  title: "Custom Macrame Orders - Bespoke Handmade Art",
   description:
-    "Commission custom macrame pieces — wall hangings, gifts, corporate orders. Handcrafted to your vision by Monika & team in Pune, India.",
+    "Commission custom macrame pieces - wall hangings, gifts, corporate orders. Handcrafted to your vision by Monika & team in Pune, India.",
 };
 
 const steps = [
@@ -30,7 +30,7 @@ const steps = [
     number: "4",
     title: "Delivered to You",
     description:
-      "Your bespoke piece is carefully packed in eco-friendly packaging and shipped to your door. Ready to transform your space.",
+      "Your bespoke piece is carefully packed in minimal, plastic-free packaging and shipped to your door. Ready to transform your space.",
   },
 ];
 

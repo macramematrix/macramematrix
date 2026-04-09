@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "About Macrame Matrix — Our Story",
+  title: "About Macrame Matrix - Our Story",
   description:
     "Meet Monika A. Fernandes, the macrame artist behind Macrame Matrix. From 15 years in corporate to handcrafting macrame in Pune, India.",
 };
@@ -25,7 +25,7 @@ export default function AboutPage() {
         <div className="relative aspect-[16/9] rounded-2xl overflow-hidden mb-12">
           <Image
             src="/images/products/toran-set.jpg"
-            alt="Macrame Matrix studio — handcrafted macrame from Pune"
+            alt="Macrame Matrix studio - handcrafted macrame from Pune"
             fill
             sizes="(max-width: 896px) 100vw, 896px"
             className="object-cover"
@@ -36,16 +36,16 @@ export default function AboutPage() {
         {/* Story */}
         <div className="prose-custom max-w-2xl mx-auto">
           <p className="font-body text-charcoal text-lg leading-relaxed mb-6">
-            Hi, I&apos;m Monika — the hands and heart behind Macrame Matrix.
+            Hi, I&apos;m Monika - the hands and heart behind Macrame Matrix.
           </p>
           <p className="font-body text-charcoal-light text-base leading-relaxed mb-6">
-            After more than 15 years in the corporate world, I stepped away to take a breath. During that pause, I picked up macrame — just to try something new, something with my hands.
+            After more than 15 years in the corporate world, I stepped away to take a breath. During that pause, I picked up macrame - just to try something new, something with my hands.
           </p>
           <p className="font-body text-charcoal-light text-base leading-relaxed mb-6">
             What started as curiosity quickly became something deeper. As I learned to tie knots and shape patterns, I found a kind of peace I hadn&apos;t felt in years. Macrame became my way of slowing down, of creating something real in a world that moves too fast.
           </p>
           <p className="font-body text-charcoal-light text-base leading-relaxed mb-6">
-            For me, macrame is more than just art — it feels like therapy. It has helped me heal and reconnect with myself in many ways.
+            For me, macrame is more than just art - it feels like therapy. It has helped me heal and reconnect with myself in many ways.
           </p>
           <p className="font-body text-charcoal-light text-base leading-relaxed mb-12">
             Today, my team and I work from our studio in Pune, turning cotton cord into pieces that bring warmth and character to everyday spaces. Every knot is tied by hand. Every piece is made with intention. And every order is a small reminder that beautiful things take time.
@@ -58,7 +58,7 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="font-body text-charcoal-light text-sm leading-relaxed">
-                We make high-quality macrame by hand — wall hangings, home accessories, wearables, and gifts — all crafted in our Pune studio using organic and recycled materials. Our aim is simple: bring the beauty of handmade craft into more homes at prices that feel fair. Every piece we create blends traditional knotwork with a modern eye, designed to add warmth and meaning to the spaces you live in.
+                We make high-quality macrame by hand - wall hangings, home accessories, wearables, and gifts - all crafted in our Pune studio using cotton cord sourced from across India. Our aim is simple: bring the beauty of handmade craft into more homes at honest prices. Every piece we create blends traditional knotwork with a modern eye, designed to add warmth and meaning to the spaces you live in.
               </p>
             </div>
             <div className="bg-cream-light rounded-xl p-6 md:p-8">
@@ -66,13 +66,13 @@ export default function AboutPage() {
                 Our Vision
               </h2>
               <p className="font-body text-charcoal-light text-sm leading-relaxed">
-                We want to take macrame from niche to everyday — making this beautiful, ancient craft accessible and affordable for homes everywhere. As we grow, we&apos;re committed to creating meaningful work opportunities for artisans in our community. Our goal is to build a brand that&apos;s known not just for what it makes, but for the lives it touches along the way.
+                We want to take macrame from niche to everyday - making this beautiful, ancient craft accessible and affordable for homes everywhere. As we grow, we&apos;re committed to creating meaningful work opportunities for the people who craft alongside us. Our goal is to build a brand that&apos;s known not just for what it makes, but for the lives it touches along the way.
               </p>
             </div>
           </div>
 
           <p className="font-body text-charcoal text-lg leading-relaxed text-center italic">
-            Macrame Matrix is more than a business — it&apos;s what happens when you follow a quiet calling and let it grow, one knot at a time.
+            Macrame Matrix is more than a business - it&apos;s what happens when you follow a quiet calling and let it grow, one knot at a time.
           </p>
         </div>
       </div>

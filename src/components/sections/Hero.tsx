@@ -25,7 +25,7 @@ export default function Hero() {
           Knotted with Precision
         </h1>
         <p className="font-body text-lg md:text-xl text-white/80 max-w-xl mx-auto mb-8 leading-relaxed">
-          Handmade macrame wall hangings, earrings, bags & gifts — crafted with organic cotton and heart.
+          Thoughtfully designed macrame pieces to add a little beauty to your everyday space.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link

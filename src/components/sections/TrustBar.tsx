@@ -1,8 +1,8 @@
 const trustItems = [
   { icon: "hands", label: "100% Handmade" },
-  { icon: "leaf", label: "Organic Cotton" },
-  { icon: "recycle", label: "Eco-Friendly Packaging" },
-  { icon: "truck", label: "Ships All India" },
+  { icon: "leaf", label: "Cotton Cord" },
+  { icon: "recycle", label: "Thoughtful Packaging" },
+  { icon: "truck", label: "Ships Globally" },
   { icon: "chat", label: "WhatsApp Support" },
 ];
 

@@ -70,7 +70,7 @@ export default function ShopContent() {
             Shop
           </h1>
           <p className="font-body text-charcoal-light text-base max-w-lg mx-auto">
-            Every piece is handknotted in our Pune studio — no machines, no shortcuts.
+            Every piece is handknotted in our Pune studio - no machines, no shortcuts.
           </p>
         </div>
         <Suspense fallback={<div className="text-center py-20 text-charcoal-light font-body">Loading products...</div>}>

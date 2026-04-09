@@ -17,12 +17,12 @@ export default function ProductCard({ product }: { product: Product }) {
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
         {product.badge && (
-          <span className="absolute top-3 left-3 bg-sage text-white text-xs font-body font-medium px-3 py-1 rounded-full">
+          <span className="absolute top-3 left-3 bg-gradient-to-r from-rose-500 to-pink-500 text-white text-xs font-body font-bold px-3.5 py-1.5 rounded-full shadow-lg ring-2 ring-white/30 animate-pulse">
             {product.badge}
           </span>
         )}
         {product.type === "made-to-order" && !product.badge && (
-          <span className="absolute top-3 left-3 bg-beige-warm text-white text-xs font-body font-medium px-3 py-1 rounded-full">
+          <span className="absolute top-3 left-3 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-xs font-body font-bold px-3.5 py-1.5 rounded-full shadow-lg ring-2 ring-white/30">
             Made to Order
           </span>
         )}

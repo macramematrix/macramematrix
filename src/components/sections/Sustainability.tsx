@@ -1,26 +1,26 @@
 const practices = [
   {
-    title: "Organic Cotton Cord",
+    title: "Cotton Cord",
     description:
-      "Our primary material is natural cotton cord. No synthetic fibers where it matters.",
+      "Our primary material is quality cotton cord sourced from across India. No synthetic fibers where it matters.",
     icon: "leaf",
   },
   {
-    title: "Recycled Materials",
+    title: "Handmade with Care",
     description:
-      "We incorporate recycled and upcycled materials wherever possible, giving new life to what others discard.",
+      "Every knot is tied by hand - no machines, no shortcuts. Just skilled hands and honest craft.",
     icon: "recycle",
   },
   {
-    title: "Eco-Friendly Packaging",
+    title: "Thoughtful Packaging",
     description:
-      "Your order arrives in minimal, plastic-free packaging. Recyclable and biodegradable, always.",
+      "Your order arrives in minimal, plastic-free packaging - simple and considered.",
     icon: "package",
   },
   {
-    title: "Made Locally in Pune",
+    title: "Made in Pune",
     description:
-      "Every piece is handcrafted in our Pune studio. Local production means a smaller footprint.",
+      "Every piece is handcrafted in our Pune studio by Monika and her team.",
     icon: "home",
   },
 ];
@@ -70,7 +70,7 @@ export default function Sustainability() {
             Made Responsibly
           </h2>
           <p className="font-body text-charcoal-light text-base max-w-lg mx-auto">
-            The earth matters as much as the art. Here&apos;s how we keep our craft kind.
+            Here&apos;s what goes into every piece we make.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

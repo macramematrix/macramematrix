@@ -20,11 +20,11 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    default: "Macrame Matrix — Handmade Macrame Products from Pune, India",
+    default: "Macrame Matrix - Handmade Macrame Products from Pune, India",
     template: "%s | Macrame Matrix",
   },
   description:
-    "Shop handcrafted macrame wall hangings, earrings, bags, torans & gifts. Made with organic cotton by artisans in Pune, India. Knotted with Precision.",
+    "Shop handcrafted macrame wall hangings, earrings, bags, torans & gifts. Handmade with cotton cord in Pune, India. Knotted with Precision.",
   keywords: [
     "macrame",
     "handmade macrame India",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     "macrame toran",
     "handmade home decor India",
     "macrame gifts",
-    "eco-friendly macrame",
+    "handcrafted macrame",
   ],
   authors: [{ name: "Monika A. Fernandes" }],
   creator: "Macrame Matrix",
@@ -45,15 +45,15 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: "https://macramematrix.com",
     siteName: "Macrame Matrix",
-    title: "Macrame Matrix — Handmade Macrame Products from Pune, India",
+    title: "Macrame Matrix - Handmade Macrame Products from Pune, India",
     description:
-      "Handcrafted macrame wall hangings, earrings, bags, torans & gifts. Made with organic cotton in Pune. Knotted with Precision.",
+      "Handcrafted macrame wall hangings, earrings, bags, torans & gifts. Handmade with cotton cord in Pune. Knotted with Precision.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Macrame Matrix — Handmade Macrame from Pune, India",
+    title: "Macrame Matrix - Handmade Macrame from Pune, India",
     description:
-      "Handcrafted macrame wall hangings, earrings, bags & gifts. Made with organic cotton in Pune.",
+      "Handcrafted macrame wall hangings, earrings, bags & gifts. Handmade with cotton cord in Pune.",
   },
   robots: {
     index: true,
@@ -71,7 +71,7 @@ export default function RootLayout({
     "@type": "LocalBusiness",
     name: "Macrame Matrix",
     description:
-      "Handcrafted macrame products made with organic cotton in Pune, India.",
+      "Handcrafted macrame products made with cotton cord in Pune, India.",
     url: "https://macramematrix.com",
     telephone: "+918262995455",
     address: {

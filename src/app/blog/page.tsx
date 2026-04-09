@@ -4,7 +4,7 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog — Macrame Tips, Guides & Inspiration",
+  title: "Blog - Macrame Tips, Guides & Inspiration",
   description:
     "Learn about macrame knots, care tips, styling ideas, and the story behind Macrame Matrix. Your guide to handmade macrame in India.",
 };
