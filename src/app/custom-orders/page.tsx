@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Custom Macrame Orders - Bespoke Handmade Art",
   description:
     "Commission custom macrame pieces - wall hangings, gifts, corporate orders. Handcrafted to your vision by Monika & team in Pune, India.",
+  alternates: {
+    canonical: "https://macramematrix.com/custom-orders",
+  },
 };
 
 const steps = [
@@ -54,7 +57,7 @@ export default function CustomOrdersPage() {
         {/* Hero image */}
         <div className="relative aspect-[16/9] rounded-2xl overflow-hidden mb-16">
           <Image
-            src="/images/products/toran-red.png"
+            src="/images/products/toran-red.jpg"
             alt="Custom macrame orders by Macrame Matrix"
             fill
             sizes="(max-width: 1024px) 100vw, 1024px"

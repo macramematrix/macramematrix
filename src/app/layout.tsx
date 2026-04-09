@@ -48,6 +48,7 @@ export const metadata: Metadata = {
     title: "Macrame Matrix - Handmade Macrame Products from Pune, India",
     description:
       "Handcrafted macrame wall hangings, earrings, bags, torans & gifts. Handmade with cotton cord in Pune. Knotted with Precision.",
+    images: [{ url: "/images/brand/logo-trimmed.png", width: 800, height: 600, alt: "Macrame Matrix" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -59,6 +60,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -69,28 +74,51 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": "https://macramematrix.com",
     name: "Macrame Matrix",
     description:
-      "Handcrafted macrame products made with cotton cord in Pune, India.",
+      "Handcrafted macrame products made with cotton cord in Pune, India. Wall hangings, torans, earrings, bags, diya holders & gifts.",
     url: "https://macramematrix.com",
     telephone: "+918262995455",
+    image: "https://macramematrix.com/images/brand/logo-trimmed.png",
+    logo: "https://macramematrix.com/images/brand/logo-trimmed.png",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Pune",
       addressRegion: "Maharashtra",
+      postalCode: "411001",
       addressCountry: "IN",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 18.5204,
+      longitude: 73.8567,
     },
     sameAs: [
       "https://www.instagram.com/macramematrix",
       "https://www.youtube.com/@MacrameMatrix",
       "https://www.facebook.com/macramematrix",
     ],
-    priceRange: "₹160 - ₹5,499",
+    priceRange: "₹129 - ₹4,377",
+    currenciesAccepted: "INR",
+    paymentAccepted: "UPI, Bank Transfer, Cash",
+    areaServed: {
+      "@type": "Country",
+      name: "India",
+    },
+    founder: {
+      "@type": "Person",
+      name: "Monika A. Fernandes",
+    },
+    knowsAbout: ["Macrame", "Handmade Crafts", "Macrame Wall Hangings", "Macrame Torans", "Macrame Earrings"],
   };
 
   return (
     <html lang="en" className={`${lora.variable} ${poppins.variable}`}>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://wa.me" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

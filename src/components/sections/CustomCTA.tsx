@@ -4,7 +4,7 @@ export default function CustomCTA() {
   return (
     <section className="relative py-20 md:py-28 overflow-hidden">
       <Image
-        src="/images/products/bouquet.png"
+        src="/images/products/bouquet.jpg"
         alt="Custom macrame orders by Macrame Matrix"
         fill
         sizes="100vw"

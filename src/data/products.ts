@@ -31,7 +31,7 @@ export const categories: Category[] = [
     name: "Home Decor",
     description:
       "Handknotted wall hangings, torans, coasters, and diya holders that transform your space with warmth and texture.",
-    image: "/images/products/toran-red.png",
+    image: "/images/products/toran-red.jpg",
     seoTitle: "Macrame Home Decor - Wall Hangings, Torans & More | Macrame Matrix",
     seoDescription:
       "Shop handmade macrame wall hangings, torans, coasters, and diya holders. Handcrafted with cotton cord in Pune, India.",
@@ -147,7 +147,7 @@ export const products: Product[] = [
     categorySlug: "home-decor",
     description:
       "A striking red macrame toran with cascading leaf motifs and wooden beads. A beautiful traditional door hanging that blends heritage with modern macrame artistry.",
-    images: ["/images/products/toran-red.png"],
+    images: ["/images/products/toran-red.jpg"],
     materials: "Cotton cord, wooden beads",
     dimensions: "Length: ~30 inches",
     featured: true,
@@ -196,7 +196,7 @@ export const products: Product[] = [
     categorySlug: "gifts-festive",
     description:
       "A one-of-a-kind macrame flower bouquet wrapped in jute - featuring handknotted lavender, yellow, and cream blooms. A gift that will never wilt. Perfect for birthdays, housewarmings, or just because.",
-    images: ["/images/products/bouquet.png"],
+    images: ["/images/products/bouquet.jpg"],
     materials: "Cotton cord, jute wrapping",
     dimensions: "Height: ~12 inches",
     badge: "Unique Gift",
@@ -365,7 +365,7 @@ export const products: Product[] = [
     categorySlug: "gifts-festive",
     description:
       "A beautiful macrame-wrapped glass jar candle holder in golden yellow with fringes and wooden bead accents. Creates a warm, ambient glow - perfect for Diwali, festive evenings, or everyday decor.",
-    images: ["/images/products/glass-jar.png"],
+    images: ["/images/products/glass-jar.jpg"],
     materials: "Cotton cord, glass jar, wooden beads",
     inStock: true,
     type: "ready-to-ship",

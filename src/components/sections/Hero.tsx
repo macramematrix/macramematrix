@@ -10,8 +10,11 @@ export default function Hero() {
         alt="Handcrafted macrame torans by Macrame Matrix"
         fill
         priority
+        loading="eager"
+        fetchPriority="high"
         className="object-cover"
         sizes="100vw"
+        quality={85}
       />
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-charcoal/60 via-charcoal/40 to-charcoal/70" />

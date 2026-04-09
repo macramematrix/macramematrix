@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "About Macrame Matrix - Our Story",
   description:
     "Meet Monika A. Fernandes, the macrame artist behind Macrame Matrix. From 15 years in corporate to handcrafting macrame in Pune, India.",
+  alternates: {
+    canonical: "https://macramematrix.com/about",
+  },
 };
 
 export default function AboutPage() {

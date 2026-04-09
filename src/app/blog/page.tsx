@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Blog - Macrame Tips, Guides & Inspiration",
   description:
     "Learn about macrame knots, care tips, styling ideas, and the story behind Macrame Matrix. Your guide to handmade macrame in India.",
+  alternates: {
+    canonical: "https://macramematrix.com/blog",
+  },
 };
 
 export default function BlogPage() {

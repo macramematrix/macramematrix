@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Our Process - How Handmade Macrame Is Made",
   description:
     "From design to delivery - see how every Macrame Matrix piece is handknotted with cotton cord in our Pune studio. No machines, no shortcuts.",
+  alternates: {
+    canonical: "https://macramematrix.com/our-process",
+  },
 };
 
 const processSteps = [
@@ -30,7 +33,7 @@ const processSteps = [
     title: "Quality Check & Packaging",
     description:
       "Each finished piece is carefully inspected - we check every knot, every fringe, every detail. Then we pack it with minimal, plastic-free packaging - simple and considered.",
-    image: "/images/products/bouquet.png",
+    image: "/images/products/bouquet.jpg",
   },
 ];
 
