@@ -39,19 +39,28 @@ export default function AboutPage() {
         {/* Story */}
         <div className="prose-custom max-w-2xl mx-auto">
           <p className="font-body text-charcoal text-lg leading-relaxed mb-6">
-            Hi, I&apos;m Monika - the hands and heart behind Macrame Matrix.
+            Hi, I&apos;m Monika - the hands behind Macrame Matrix.
           </p>
           <p className="font-body text-charcoal-light text-base leading-relaxed mb-6">
-            After more than 15 years in the corporate world, I stepped away to take a breath. During that pause, I picked up macrame - just to try something new, something with my hands.
+            I&apos;ve always loved creating. Years ago, I spent time exploring DIY crafts, quilling, and paper art. But as life moved forward - work, responsibilities, and routine - I slowly stopped making space for it.
           </p>
           <p className="font-body text-charcoal-light text-base leading-relaxed mb-6">
-            What started as curiosity quickly became something deeper. As I learned to tie knots and shape patterns, I found a kind of peace I hadn&apos;t felt in years. Macrame became my way of slowing down, of creating something real in a world that moves too fast.
+            After spending more than 15 years in the corporate world, I finally took a step back to pause and breathe. During that time, I found myself drawn to macrame - simply to try something new and rediscover the joy of creating.
           </p>
           <p className="font-body text-charcoal-light text-base leading-relaxed mb-6">
-            For me, macrame is more than just art - it feels like therapy. It has helped me heal and reconnect with myself in many ways.
+            What started as curiosity slowly became something much deeper.
+          </p>
+          <p className="font-body text-charcoal-light text-base leading-relaxed mb-6">
+            As I began learning knots and shaping patterns, I found a sense of calm I hadn&apos;t felt in years. Macrame became my way of slowing down - of creating something real in a world that moves too fast.
+          </p>
+          <p className="font-body text-charcoal-light text-base leading-relaxed mb-6">
+            For me, it&apos;s more than just art - it&apos;s something that helped me reconnect with myself.
+          </p>
+          <p className="font-body text-charcoal-light text-base leading-relaxed mb-6">
+            Macrame Matrix grew from that space - a quiet beginning, shaped by curiosity, consistency, and a love for creating.
           </p>
           <p className="font-body text-charcoal-light text-base leading-relaxed mb-12">
-            Today, my team and I work from our studio in Pune, turning cotton cord into pieces that bring warmth and character to everyday spaces. Every knot is tied by hand. Every piece is made with intention. And every order is a small reminder that beautiful things take time.
+            Today, each piece is created with care, patience, and a deep respect for the craft. Every knot is thoughtfully tied, every detail considered - not rushed, but shaped with intention. The aim is simple: to bring warmth, character, and something truly meaningful into your space.
           </p>
 
           {/* Mission & Vision */}
@@ -61,7 +70,7 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="font-body text-charcoal-light text-sm leading-relaxed">
-                We make high-quality macrame by hand - wall hangings, home accessories, wearables, and gifts - all crafted in our Pune studio using cotton cord sourced from across India. Our aim is simple: bring the beauty of handmade craft into more homes at honest prices. Every piece we create blends traditional knotwork with a modern eye, designed to add warmth and meaning to the spaces you live in.
+                To create thoughtfully designed macrame pieces that bring a sense of calm, warmth, and balance into everyday spaces. Each piece is made with close attention to detail, using quality materials and a mindful approach to the craft. Every knot, every pattern, and every finish is carefully considered - not just as decor, but as something that quietly transforms the space it becomes a part of.
               </p>
             </div>
             <div className="bg-cream-light rounded-xl p-6 md:p-8">
@@ -69,7 +78,7 @@ export default function AboutPage() {
                 Our Vision
               </h2>
               <p className="font-body text-charcoal-light text-sm leading-relaxed">
-                We want to take macrame from niche to everyday - making this beautiful, ancient craft accessible and affordable for homes everywhere. As we grow, we&apos;re committed to creating meaningful work opportunities for the people who craft alongside us. Our goal is to build a brand that&apos;s known not just for what it makes, but for the lives it touches along the way.
+                To make macrame a meaningful part of how spaces feel. We envision living and working spaces where simple, organic art adds warmth, character, and a sense of grounding. As the journey grows, the aim is to build something that values craftsmanship, mindful creation, and the impact thoughtful design can have on everyday living.
               </p>
             </div>
           </div>

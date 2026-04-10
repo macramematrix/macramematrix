@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/shop", label: "Shop" },
-  { href: "/about", label: "About" },
+  { href: "/about", label: "Our Story" },
   { href: "/our-process", label: "Our Process" },
   { href: "/custom-orders", label: "Custom Orders" },
   { href: "/blog", label: "Blog" },
@@ -28,7 +28,7 @@ export default function Header() {
     <>
       {/* Utility bar */}
       <div className="bg-gradient-to-r from-sage-dark via-sage to-sage-dark text-white text-xs md:text-sm py-2 text-center font-body font-semibold tracking-wider">
-        ✨ Free shipping on orders above ₹1999 &nbsp;|&nbsp; Made with love in Pune, India ✨
+        ✨ Free shipping on orders above ₹1999 &nbsp;|&nbsp; Thoughtfully made in Pune, India ✨
       </div>
 
       <header
